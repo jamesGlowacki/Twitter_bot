@@ -77,7 +77,7 @@ class MemeList{
     public MemeList(Boolean db, ArrayList<String> p){
         this.debug = db;
         this.posted = p;
-        String dir = "\\Users\\james\\Pictures\\memes";
+        String dir = "DIRECTORY YOU WISH TO USE";
         //ArrayList<Meme> muh = new ArrayList<Meme>();
         this.primary = this.getMemes( new File(dir), new ArrayList<Meme>(), "Meme");
         
